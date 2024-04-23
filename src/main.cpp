@@ -56,6 +56,8 @@ void setup() {
 
 void loop() {
 
+  //for test Github
+
   {// PoplavokNa4alo Razryad and Voltag
   Razryad = analogRead(readingPinKrutilki); // reading in 10bit
   Voltag = ((float)Razryad / 1024) * MaxVoltag; // convert to voltage 0 to 5
